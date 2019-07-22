@@ -1,4 +1,4 @@
-package com.company.creational.singleton;
+/*package com.company.creational.singleton;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -42,4 +42,4 @@ public class DbSingleton {
         }
         return connection;
     }
-}
+}*/

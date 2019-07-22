@@ -1,4 +1,4 @@
-package com.company.creational.singleton;
+/*ackage com.company.creational.singleton;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -19,3 +19,4 @@ public class DbSingletonDemo {
         }
     }
 }
+*/
