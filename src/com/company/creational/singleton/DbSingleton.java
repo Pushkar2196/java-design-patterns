@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DbSingleton {
+class DbSingleton {
     private static volatile DbSingleton instance = null;
-    public static final String JDBC_DERBY_URL = "jdbc:derby:memory:codejava/webdb;create=true";
+    private static final String JDBC_DERBY_URL = "jdbc:derby:memory:codejava/webdb;create=true";
     private Connection connection = null;
     private DbSingleton(){
         try {
@@ -42,4 +42,4 @@ public class DbSingleton {
         }
         return connection;
     }
-}*/
+}
